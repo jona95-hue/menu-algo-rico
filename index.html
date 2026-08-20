@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Algo Rico</title>
+    <style>
+        :root {
+            --primary-color: #4a6741;
+            --bg-color: #fcfaf7;
+            --text-color: #333;
+        }
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 2px solid var(--primary-color);
+            margin-bottom: 30px;
+        }
+        h1 { color: var(--primary-color); font-size: 3em; margin: 0; }
+        .menu-section { margin-bottom: 30px; }
+        .section-title {
+            color: var(--primary-color);
+            font-size: 1.5em;
+            border-bottom: 1px solid var(--primary-color);
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .item-name { font-weight: bold; }
+        .item-price { font-weight: bold; color: var(--primary-color); }
+        .item-desc { font-size: 0.9em; color: #666; margin-top: 2px; }
+        .contact {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            background: #eee;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Algo Rico</h1>
+        </header>
+        
+        <!-- Aquí iría el contenido, simplificado para el ejemplo -->
+        <div class="menu-section">
+            <h2 class="section-title">DESAYUNOS</h2>
+            <div class="item">
+                <div>
+                    <div class="item-name">Machaca campestre</div>
+                    <div class="item-desc">Machaca a la mexicana, chilaquiles suizos y frijoles puercos con quesito.</div>
+                </div>
+                <div class="item-price">$123</div>
+            </div>
+            <!-- ... se añadirían más elementos aquí ... -->
+        </div>
+
+        <div class="contact">
+            <h2>SERVICIO A DOMICILIO</h2>
+            <p style="font-size: 1.5em; font-weight: bold;">66-71-98-41-23</p>
+            <p>@algoricosaludable</p>
+        </div>
+    </div>
+</body>
+</html>
